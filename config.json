@@ -1,0 +1,13 @@
+{
+  "kaiten": {
+    "token": ""
+  },
+  "jira": {
+    "projectName": "",
+    "password": "",
+    "login": "",
+    "url": "",
+    "parentId": "",
+    "userName": ""
+  }
+}

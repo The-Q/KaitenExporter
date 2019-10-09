@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "kaiten": {
+      "commandName": "Project",
+      "commandLineArgs": "--input=input.txt"
+    }
+  }
+}

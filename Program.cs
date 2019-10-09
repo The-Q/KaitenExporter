@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System.Linq;
+using Kaiten.Services;
 
-
-namespace kaiten
+namespace Kaiten
 {
     class Program
     {
@@ -48,8 +47,6 @@ namespace kaiten
                     {
                         continue;
                     }
-                    /*csv.WriteRecord<CsvRecord>(CsvRecord.FromKaiten(card));
-                    csv.NextRecord();*/
                     var a = await jira.CreateSubTask(card);
                 }
 

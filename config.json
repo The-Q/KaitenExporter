@@ -1,6 +1,7 @@
 {
   "kaiten": {
-    "token": ""
+    "token": "",
+    "url":  ""
   },
   "jira": {
     "projectName": "",
@@ -8,6 +9,8 @@
     "login": "",
     "url": "",
     "parentId": "",
-    "userName": ""
+    "userName": "",
+    "components": [""],
+    "labels": [""]
   }
 }

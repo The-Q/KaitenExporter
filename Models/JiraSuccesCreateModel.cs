@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace Kaiten.Models
+namespace kaiten.Models
 {
-    class JiraSuccesCreateModel
-    {
-        [JsonPropertyName("id")]
-        public String Id { get; set; }
-        [JsonPropertyName("key")]
-        public String Key { get; set; }
-        [JsonPropertyName("self")]
-        public String SelfURI { get; set; }
-    }
+  class JiraSuccesCreateModel
+  {
+    [JsonPropertyName("id")]
+    public String Id { get; set; }
+    [JsonPropertyName("key")]
+    public String Key { get; set; }
+    [JsonPropertyName("self")]
+    public String SelfURI { get; set; }
+  }
 }

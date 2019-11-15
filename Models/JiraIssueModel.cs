@@ -72,8 +72,8 @@ namespace kaiten.Models
     }
     internal class ComponentModel : IDValue
     {
+      [JsonPropertyName("id")]
       public String Id { get; set; }
-
     }
 
     internal class PriorityModel : IDValue
